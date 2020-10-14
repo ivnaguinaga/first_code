@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
 }
 
 body {
@@ -11,9 +10,14 @@ body {
 
 /* Style the header */
 
+
+/* Style the header */
+
 .header {
-    background-color: green;
-    padding: 20px;
+    background-image: url('../img/pexels-fauxels-3184460.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
     text-align: center;
 }
 
@@ -31,16 +35,20 @@ body {
 
 /* ejemplo de estilos por clase */
 
-.column {
+.one-column {
     float: left;
     width: 100%;
     /*padding top right bottom left o arriba+abajo y derecha+izquierda o un solo valor aplica a todos los lados*/
     padding: 20px 20%;
 }
 
-.column h2 {
-    color: green;
+.one-column h1,
+.one-column h2 {
     text-align: center;
+}
+
+#cadetblue {
+    background-color: cadetblue;
 }
 
 
@@ -53,19 +61,28 @@ body {
 }
 
 
+/*two columns*/
+
+.two-column {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+
 /*Image Gallery*/
 
-.gallery {
+.three-columns {
     padding: 20px;
     float: left;
     width: 33.33%;
 }
 
-.gallery img {
+.three-columns img {
     width: 100%;
 }
 
-.gallery .desc {
+.three-columns .desc {
     padding: 15px;
     text-align: center;
 }
