@@ -87,6 +87,29 @@ body {
     text-align: center;
 }
 
+.four-column {
+    padding: 20px;
+    float: left;
+    width: 25%;
+}
+
+
+/*FOOTER*/
+
+#footer-a {
+    background-color: darkcyan;
+}
+
+#footer-a p {
+    color: white
+}
+
+#footer-b {
+    color: white;
+    background-color: turquoise;
+    text-align: center;
+}
+
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 
